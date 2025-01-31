@@ -1,0 +1,207 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/* navbar content */
+.nav{
+    display: flex;
+    position: sticky;
+    top:0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.navbar 
+{
+    display: flex;
+    float: right;
+    justify-content: center;
+    list-style: none;
+    padding-right: 30px;
+}
+.navbar li
+{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.navbar li a
+{
+	font-family: Poppins;
+	color: white;
+    font-weight: bolder;
+	text-decoration: none;	
+}
+.res_title{
+    color: white;
+    margin: 30px;
+}
+.primary_title{
+    font-size: 3rem;
+}
+.second_title{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+/* Wallpaper content */
+.res_pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 280px;
+}
+.res_pic::before{
+    content: "";
+    background: url(images/restaurant1.jpeg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 330px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.check{
+    font-size: 3rem;
+    font-family: Brush Script MT; 
+}
+.menu_headline{
+    font-size: 3.5rem;
+}
+
+/* Visit Detail */
+.visit_detail{
+    display: flex;
+    justify-content: center;
+}
+.visit_description{
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+.visit_description h1{
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+.visit_images{
+    margin-left: 20px;
+}
+.first_layer img{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.second_layer{
+    display: flex;
+}
+.second img{
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.restaurant_img img{
+    height: 250px;
+    width: 420px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/* Gallery_Photos */
+.gallery{
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.gallery_photos img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+/* Footer Detail */
+#footer{
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0px;
+ 
+}
+.branch_name{
+    color: white;
+    font-size: 1.5rem;
+ 
+}
+.footer_detail{
+    color: white;
+}
+.icon_detail{
+    display: flex;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 0px 0px;
+}
+.icon a{
+    color: white;
+}
+#phone, #map-maker, #map{
+    font-size: 1.2rem;
+}
+#phone, #map{
+    padding-top: 8px;
+}
+
+.description{
+    font-size: 1rem;
+    padding-top: 18px;
+}
+a{
+    text-decoration: none;
+}
+.primary_name{
+    color: white;
+    font-size: 2rem;
+}
+.second_name{
+    font-size: 1rem;
+    color: white;
+}
+.footer_description{
+    color: white;
+    font-size: 1rem;
+    line-height: 25px;
+}
+.fa{
+    text-decoration: none;
+    color: white;
+}
+#facebook, #instagram, #twitter, #snapchat, #youtube{
+    font-size: 1.5rem;
+    line-height: 20px;  
+    margin: 0px 10px;
+}
+.icon_container{
+    margin-top: 10px;
+}
+
+
+
+

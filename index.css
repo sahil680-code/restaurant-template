@@ -1,0 +1,335 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/* navbar content */
+.nav{
+    display: flex;
+    position: sticky;
+    top:0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.navbar 
+{
+    display: flex;
+    float: right;
+    justify-content: center;
+    list-style: none;
+    padding-right: 30px;
+}
+.navbar li
+{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.navbar li a
+{
+	font-family: Poppins;
+	color: white;
+    font-weight: bolder;
+	text-decoration: none;	
+
+}
+.res_title{
+    color: white;
+    margin: 30px;
+}
+.primary_title{
+    font-size: 3rem;
+}
+.second_title{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+/* Wallpaper content */
+.res_pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+.res_pic::before{
+    content: "";
+    background: url(images/restaurant1.jpeg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 642px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.welcome{
+    font-size: 3rem;
+    font-family: Brush Script MT;  
+}
+.grand{
+    font-size: 6rem;
+    font-size:700%;
+}
+.restaurant{
+    font-size: 3.5rem;
+}
+
+/* Welcome Index */
+#welcome_index{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.welcome_img img
+{
+    border-radius: 10px;
+}
+.welcome_heading
+{
+    font-size: 3.5rem;
+    font-family: Brush Script MT;
+}
+.welcome_para{
+    font-size: 25px;
+    text-align: center;
+}
+button
+{
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Dishes Features */
+#dish_picture
+{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_picture{
+    display: flex;
+}
+.card
+{
+    height: 380px;
+    width: 200px;
+    background: url(images/food-4.png);
+    margin: 10px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+.card:hover {
+    position: relative;
+    transform: translateY(-20px);
+    transition: .2s ease-in-out;
+}
+#dish_picture h4,h6
+{
+    color: darkgreen;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+#dish_picture h1
+{
+    font-size: 50px;
+    color: #3b413a;
+}
+
+/* Customer_Review */
+#customer_review{
+    margin-top: 100px;
+}
+.customer_heading{
+    font-size: 3.5rem;
+    font-family: Brush Script MT;
+}
+
+#customer_card
+{
+    width: 100%;
+    float: left;
+
+}
+#customer_review h1
+{
+    text-align: center;
+
+}
+.review
+{
+    height: 300px;
+    width: 500px;
+    background-color: #d6e5d8;
+    float: left;
+    margin-top: 50px;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+.review img
+{
+    float: left;
+    height: 250px;
+    width: 180px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.review h2,p
+{
+    margin-top: 20px;
+    margin-right: 15px;  
+}
+.review p
+{
+    font-size:18px;
+}
+/* Contact and Reservation */
+#customer_booking{
+    display: flex;
+    margin-top: 780px;
+   
+}
+.reserve_description{
+    margin-left: 100px;
+}
+.reserve_title{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+.reserve_details{
+    display: flex;
+    margin-top: 50px;
+}
+.reserve_phone{
+    margin-right: 25px;
+}
+.reserve_para{
+    line-height: 30px;
+}
+.reserve_table{
+    margin-left: 40px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.reserve_border{
+    padding: 30px 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.reserve_time{
+    display: flex;
+}
+.lunch_time{
+    margin-right: 60px;
+    line-height: 10px;
+}
+.dinner_time{
+    line-height: 10px;
+}
+.reserve_location{
+    margin-top: 50px;
+    line-height: 10px;
+}
+.reserve_btn{
+    background-color: white;
+    color: black;
+    list-style: none;
+    border: none;
+    margin-top: 50px;
+}
+
+/* Footer Detail */
+#footer{
+    background-color: black;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0px;
+}
+.branch_name{
+    color: white;
+    font-size: 1.5rem;
+}
+.footer_detail{
+    color: white;
+}
+.icon_detail{
+    display: flex;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 0px 0px;
+}
+.icon a{
+    color: white;
+}
+#phone, #map-maker, #map{
+    font-size: 1.2rem;
+}
+#phone, #map{
+    padding-top: 8px;
+}
+
+.description{
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+}
+.primary_name{
+    color: white;
+    font-size: 2rem;
+}
+.second_name{
+    font-size: 1rem;
+    color: white;
+}
+.footer_description{
+    color: white;
+    font-size: 1rem;
+    line-height: 25px;
+}
+.fa{
+    text-decoration: none;
+    color: white;
+
+}
+#facebook, #instagram, #twitter, #snapchat, #youtube{
+    font-size: 1.5rem;
+    line-height: 20px;  
+    margin: 0px 10px;
+}
+.icon_container{
+    margin-top: 10px;
+}
+
+
+
+

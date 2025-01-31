@@ -1,0 +1,284 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/* navbar content */
+.nav{
+    display: flex;
+    position: sticky;
+    top:0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.navbar 
+{
+    display: flex;
+    float: right;
+    justify-content: center;
+    list-style: none;
+    padding-right: 30px;
+}
+.navbar li
+{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.navbar li a
+{
+	font-family: Poppins;
+	color: white;
+    font-weight: bolder;
+	text-decoration: none;	
+}
+.res_title{
+    color: white;
+    margin: 30px;
+}
+.primary_title{
+    font-size: 3rem;
+}
+.second_title{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+/* Wallpaper content */
+.res_pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 280px;
+}
+.res_pic::before{
+    content: "";
+    background: url(images/restaurant1.jpeg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 330px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+.check{
+    font-size: 3rem;
+    font-family: Brush Script MT;
+    
+}
+.menu_headline{
+    font-size: 3.5rem;
+}
+
+
+
+
+/* Contact and Reservation */
+#customer_booking{
+    display: flex;  
+    /* border: 2px solid red;  */
+}
+.reserve_description{
+    margin-left: 100px;
+    /* border: 2px solid green; */
+}
+.reserve_title{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    /* border: 2px solid yellow; */
+}
+.reserve_details{
+    display: flex;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+}
+.reserve_phone{
+    margin-right: 35px;
+    /* border: 2px solid red; */
+}
+.reserve_para{
+    line-height: 30px;
+}
+.reserve_table{
+    margin-left: 40px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.reserve_border{
+    padding: 30px 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+.reserve_time{
+    display: flex;
+}
+.lunch_time{
+    margin-right: 60px;
+    line-height: 25px;
+}
+.dinner_time{
+    line-height: 25px;
+}
+.reserve_location{
+    margin-top: 50px;
+    line-height: 25px;
+}
+.reserve_btn{
+    background-color: white;
+    color: black;
+    list-style: none;
+    border: none;
+    margin-top: 30px;
+    font-size: 1.4rem;
+    padding: 8px 15px;
+    border-radius: 10px; 
+}
+
+/* Booking page */
+.book_table{
+    border: 2px solid black;
+    margin: 0px 200px;
+    border-radius: 10px;
+    padding: 0px;
+    padding-top: 50px;
+}
+.table_heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#booking_detail{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#form_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.first, .second, .third{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+    line-height: 40px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.request_textarea{
+    margin-left: 34px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.name, .date, .email, .time, .phone, .seats{
+    line-height: 100px;
+}
+.request{
+    line-height: 200px;
+}
+#booking_btn{
+    text-align: center;
+    margin: 30px 0px;
+    
+}
+.table_btn{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+
+/* Footer Detail */
+#footer{
+    background-color: black;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0px;
+ 
+}
+.branch_name{
+    color: white;
+    font-size: 1.5rem;
+ 
+}
+.footer_detail{
+    color: white;
+}
+.icon_detail{
+    display: flex;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 0px 0px;
+}
+.icon a{
+    color: white;
+}
+#phone, #map-maker, #map{
+    font-size: 1.2rem;
+}
+#phone, #map{
+    padding-top: 8px;
+}
+
+.description{
+    font-size: 1rem;
+    padding-top: 18px;
+}
+a{
+    text-decoration: none;
+}
+.primary_name{
+    color: white;
+    font-size: 2rem;
+}
+.second_name{
+    font-size: 1rem;
+    color: white;
+}
+.footer_description{
+    color: white;
+    font-size: 1rem;
+    line-height: 25px;
+}
+.fa{
+    text-decoration: none;
+    color: white;
+}
+#facebook, #instagram, #twitter, #snapchat, #youtube{
+    font-size: 1.5rem;
+    line-height: 20px;  
+    margin: 0px 10px;
+}
+.icon_container{
+    margin-top: 10px;
+}
+
+
+
+
